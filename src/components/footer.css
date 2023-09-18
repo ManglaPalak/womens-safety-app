@@ -1,0 +1,24 @@
+/* Apply the styles to your footer component */
+footer {
+    background: #B76E79;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    padding: 10px 0; /* Add padding for spacing */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style any links or additional elements within the footer */
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the copyright text */
+  footer p {
+    margin: 0;
+  }
+  
+  /* Apply additional styles as needed */
+  
