@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+.testimonials-container {
+  position: relative;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.slider-button:focus {
+  outline: none;
+}
+
+.testimonial-navigation {
+  margin-top: 20px;
+}
+
+.slider-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px; /* Add margin for spacing */
+  transition: color 0.3s ease; /* Add color transition */
+}
+
+.slider-button:focus {
+  outline: none;
+}
+
+.slider-button:hover {
+  color: #B76E79; /* Change color on hover */
+}
