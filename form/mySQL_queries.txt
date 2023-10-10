@@ -1,0 +1,14 @@
+'''
+CREATE DATABASE COMMAND
+create database HerSafetyNet;
+'''
+
+'''
+CREATE TABLE COMMAND
+create table dataset(name varchar(15),area varchar(15),feel_safe_in_college_campus int(1),harassment_public_transportation int(1),
+Aware_of_Local_Women_Safety int(1),college_authorities_committed_towards_safety int(1),area_outside_college_safe int(1),reported_incidents_harassment int(1),
+discrimination_at_workplace_based_on_gender int(1),college_conduct_workshops_women_safety int(1),campus_authorities_take_reports_of_assault_seriously int(1),
+Emergency_call_boxes_available int(1),campus_security_presence_visible int(1),aware_of_counselling_and_mental_health_resources int(1),
+feel_safe_using_ridesharing_services int(1),feel_safe_using_public_restrooms_and_facilities int(1),enough_awareness_action_taken_safety int(1),
+would_benefit_from_women_safety_web_application int(1),incident varchar(30),Red_time_zones time);
+'''
