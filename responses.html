@@ -1,0 +1,53 @@
+<h1> Entry Form Responses {{name}} </h1>
+<table border=1>
+    <thread>
+        <tr>
+            <th> Name </th>
+            <th> Area </th>
+            <th> feel_safe_in_college_campus </th>
+            <th> harassment_public_transportation </th>
+            <th> Aware_of_Local_Women_Safety </th>
+            <th> college_authorities_committed_towards_safety </th>
+            <th> area_outside_college_safe </th>
+            <th> reported_incidents_harassment </th>
+            <th> discrimination_at_workplace_based_on_gender </th>
+            <th> college_conduct_workshops_women_safety </th>
+            <th> campus_authorities_take_reports_of_assault_seriously </th>
+            <th> Emergency_call_boxes_available </th>
+            <th> campus_security_presence_visible </th>
+            <th> aware_of_counselling_and_mental_health_resources </th>
+            <th> feel_safe_using_ridesharing_services </th>
+            <th> feel_safe_using_public_restrooms_and_facilities </th>
+            <th> enough_awareness_action_taken_safety </th>
+            <th> would_benefit_from_women_safety_web_application </th>
+            <th> incident </th>
+            <th> Red_time_zones </th>
+        </tr>
+    </thread>
+    <tbody>
+    {% for row in data%}
+    <tr>
+        <td> {{row[0]}}</td>
+        <td>{{row[1]}}</td>
+        <td>{{row[2]}}</td>
+        <td> {{row[3]}}</td>
+        <td>{{row[4]}}</td>
+        <td>{{row[5]}}</td>
+        <td> {{row[6]}}</td>
+        <td>{{row[7]}}</td>
+        <td>{{row[8]}}</td>
+        <td> {{row[9]}}</td>
+        <td>{{row[10]}}</td>
+        <td>{{row[11]}}</td>
+        <td> {{row[12]}}</td>
+        <td>{{row[13]}}</td>
+        <td>{{row[14]}}</td>
+        <td> {{row[15]}}</td>
+        <td>{{row[16]}}</td>
+        <td>{{row[17]}}</td>
+        <td> {{row[18]}}</td>
+        <td>{{row[19]}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
